@@ -34,8 +34,8 @@
 		public static const SUCCESS:int = 0;
 		public static const ERROR:int = -1;
 
-		public static const SERVER_IP:String = "localhost";
-		public static const SOCKET_PORT:int = 6001;
+		public static var 	SERVER_IP:String = "localhost";
+		public static var 	SOCKET_PORT:int = 6001;
 
 		public static const CAMERA_ID:int = 0;
 		public static const MOTOR_ID:int = 1;
@@ -62,18 +62,18 @@
 		public static const DATA_IN_SIZE:int = 3 * 2 + 3 * 8;
 		public static const COMMAND_SIZE:int = 6;
 		
-		public static const MAX_BLOBS:int = 15;
-		public static const BLOB_MASK:uint = 0xFFFFFFFF;
-		public static const BLOB_COLOR:uint = 0xFFFFFFFF;
-		public static const BLOB_FILL_COLOR:uint = 0xFF0000FF;
-		public static const BLOB_PROCESSED_COLOR:uint = 0x00FF00FF;
-		public static const BLOB_MIN_WIDTH:uint = 15;
-		public static const BLOB_MAX_WIDTH:uint = 30;
-		public static const BLOB_MIN_HEIGHT:uint = 15;
-		public static const BLOB_MAX_HEIGHT:uint = 80;
+		public static var	MAX_BLOBS:int = 15;
+		public static var	BLOB_MASK:uint = 0xFFFFFFFF;
+		public static var	BLOB_COLOR:uint = 0xFFFFFFFF;
+		public static var	BLOB_FILL_COLOR:uint = 0xFF0000FF;
+		public static var	BLOB_PROCESSED_COLOR:uint = 0x00FF00FF;
+		public static var	BLOB_MIN_WIDTH:uint = 15;
+		public static var	BLOB_MAX_WIDTH:uint = 30;
+		public static var	BLOB_MIN_HEIGHT:uint = 15;
+		public static var	BLOB_MAX_HEIGHT:uint = 80;
 		
-		public static const HORIZONTAL_BLOBS_SEARCH_STEP_WIDTH : int = 3;
-        public static const HORIZONTAL_BLOBS_SEARCH_SENSIVITY : int = 15;
-        public static const HORIZONTAL_BLOBS_HOLD_TOLERANCE : int=100;
+		public static var	HORIZONTAL_BLOBS_SEARCH_STEP_WIDTH:int = 3;
+        public static var	HORIZONTAL_BLOBS_SEARCH_SENSIVITY:int = 15;
+        public static var	HORIZONTAL_BLOBS_HOLD_TOLERANCE:int = 100;
 	}
 }
